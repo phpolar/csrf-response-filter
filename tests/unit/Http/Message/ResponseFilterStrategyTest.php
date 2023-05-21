@@ -5,20 +5,17 @@ declare(strict_types=1);
 namespace Phpolar\CsrfResponseFilter\Http\Message;
 
 use Generator;
-use Phpolar\CsrfProtection\CsrfToken;
 use Phpolar\HttpMessageTestUtils\ResponseFactoryStub;
 use Phpolar\HttpMessageTestUtils\StreamFactoryStub;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\Attributes\TestDox;
-use PHPUnit\Framework\Attributes\UsesClass;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\StreamInterface;
 use Stringable;
 
 #[CoversClass(ResponseFilterPatternStrategy::class)]
-#[UsesClass(CsrfToken::class)]
 final class ResponseFilterStrategyTest extends TestCase
 {
     private StreamInterface $stream;
