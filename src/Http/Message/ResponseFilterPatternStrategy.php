@@ -33,9 +33,11 @@ final class ResponseFilterPatternStrategy implements ResponseFilterStrategyInter
             ],
             [
                 sprintf(
-                    "<form$1>$2\n    <input type=\"hidden\" name=\"%s\" value=\"%s\" />\n</form>",
+                    "<form$1>$2%s    <input type=\"hidden\" name=\"%s\" value=\"%s\" />%s</form>",
+                    PHP_EOL,
                     $this->requestId,
                     (string) $this->token,
+                    PHP_EOL,
                 ),
                 sprintf(
                     "<a href=$1?%s=%s&$2>$3</a>",
