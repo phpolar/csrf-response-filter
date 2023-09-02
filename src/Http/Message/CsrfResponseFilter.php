@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Phpolar\CsrfResponseFilter\Http\Message;
 
-use Phpolar\Http\Message\ResponseFilterInterface;
-use Phpolar\Http\Message\ResponseFilterStrategyInterface;
+use PhpContrib\Http\Message\ResponseFilterInterface;
+use PhpContrib\Http\Message\ResponseFilterStrategyInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**
