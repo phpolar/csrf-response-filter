@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Phpolar\CsrfResponseFilter\Http\Message;
 
-use Phpolar\Http\Message\ResponseFilterStrategyInterface;
+use PhpContrib\Http\Message\ResponseFilterStrategyInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Stringable;

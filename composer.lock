@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f3a5e3e0bf7ee4451669a5aec504b81",
+    "content-hash": "092802b8529293a7eb69adce850982b1",
     "packages": [
         {
-            "name": "phpolar/response-filter",
-            "version": "1.0.1",
+            "name": "php-contrib/response-filter",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpolar/response-filter.git",
-                "reference": "40490cf5d246bc44c3809fefa9b81e17a1cd8670"
+                "url": "https://github.com/php-contrib/response-filter.git",
+                "reference": "5c06db4e40be1311d56ed7c88c8710bf16954bc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpolar/response-filter/zipball/40490cf5d246bc44c3809fefa9b81e17a1cd8670",
-                "reference": "40490cf5d246bc44c3809fefa9b81e17a1cd8670",
+                "url": "https://api.github.com/repos/php-contrib/response-filter/zipball/5c06db4e40be1311d56ed7c88c8710bf16954bc1",
+                "reference": "5c06db4e40be1311d56ed7c88c8710bf16954bc1",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Phpolar\\Http\\Message\\": "src/Http/Message/"
+                    "PhpContrib\\Http\\Message\\": "src/Http/Message/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -39,10 +39,10 @@
             ],
             "description": "Supports filtering PSR-7 HTTP Responses",
             "support": {
-                "issues": "https://github.com/phpolar/response-filter/issues",
-                "source": "https://github.com/phpolar/response-filter/tree/1.0.1"
+                "issues": "https://github.com/php-contrib/response-filter/issues",
+                "source": "https://github.com/php-contrib/response-filter/tree/1.0.0"
             },
-            "time": "2023-05-21T00:31:42+00:00"
+            "time": "2023-09-02T16:05:48+00:00"
         },
         {
             "name": "psr/http-message",
