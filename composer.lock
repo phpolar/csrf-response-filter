@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "807dff682f8e718d1ac5d5dc1d186a00",
+    "content-hash": "3c6b78319158dd91d5ca45903de4361e",
     "packages": [
         {
             "name": "php-contrib/response-filter",
