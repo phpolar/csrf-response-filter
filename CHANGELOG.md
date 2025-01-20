@@ -1,3 +1,9 @@
+## 1.1.2 (2025-01-20)
+
+### Fix
+
+- **composer**: upgrade php-contrib/response-filter to 2.0
+
 ## 1.1.1 (2024-12-01)
 
 ### Fix
